@@ -3,61 +3,206 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Free Music Player</title>
+    <link rel="stylesheet" href="src/css/main-stylesheet.css">
+
 </head>
 
 <body>
-    <main>
+    <!--CORPO DA PÁGINA-->
+    <div class="container">
         <!--SIDEBAR-->
-        <aside>
-            <images>
-                <img src="" alt="Logo">
-            </images>
-            <nav>
-                <ul>
-                    <li> <img src="" alt="">Home</li>
-                    <li> <img src="" alt="">Browse</li>
-                    <li> <img src="" alt="">Liked Songs</li>
-                </ul>
+        <aside class="asideL">
+            <!--LOGO-->
+            <img src="./src/img/menu-dots.svg" alt="LOGO">
+            <!--NAVEGAÇÃO-->
+            <nav class="navegacao">
+
+                <!--LINHA HOME-->
+                <div class="home">
+                    <div class="iconeHome">
+                        <img src="./src/img/home.svg">
+                    </div>
+                    <div>
+                        <a href="index.html">Home</a>
+                    </div>
+                </div>
+                <!--/LINHA HOME-->
+
+                <!--LINHA PORTIFOLIO-->
+                <div class="portifolio">
+                    <div class="iconePortifolio">
+                        <img src="./src/img/star.svg">
+                    </div>
+                    <div>
+                        <a href="index.html">Portifólio</a>
+                    </div>
+                </div>
+                <!--LINHA GIT-->
+                <div class="git">
+                    <div class="iconeGit">
+                        <img src="./src/img/heart.svg">
+                    </div>
+                    <div>
+                        <a target=_blank href="https://github.com/nanacirino">GitHub</a>
+                    </div>
+                </div>
+                <hr>
+                <!--/LINHA GIT-->
             </nav>
         </aside>
 
-        <!--CABEÇALHO-->
-        <header>
-                <div>
-                    <img src="scr/img/" alt="foto do usuário">
-                    <p>USUÁRIO</p>
+        <!--MIOLO DA PÁGINA-->
+        <section class="miolo">
+            <h1></h1>
+            <!--CABEÇALHO-->
+            <header>
+                <!--USUÁRIO-->
+                <div class="usuario">
+                    <img src="./src/img/git.png" alt="">
+                    <p id="usuario">NAIRA CIRINO</p>
                 </div>
-                <div>
-                    <p>1158 songs</p>
+                <!--CONTADOR DE MÚSICAS-->
+                <div class="contador">
+                    <p id="contador">XYZ MUSICAS</p>
                 </div>
-                </header>
             </header>
-        
-        <!--INICIDO DA SESSÃO DE MÚSICAS-->
-        <section>
-            <button>PAUSE</button>
+            <!--LISTA DE MÚSICAS-->
+            <section class="listaMusicas">
+                <h2></h2>
+                <!--AREA LISTA-->
+                <div class="areaLista">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td>MÚSICA</td>
+                                <td>ARTISTA</td>
+                                <td>ALBUM</td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                            <tr>
+                                <td id="numTrack">1</td>
+                                <td id="nomeTrack">Black</td>
+                                <td id="artistaTrack">Pearl Jam</td>
+                                <td id="albumTrack">Ten</td>
+                                <td id="downloadTrack"><a href=""><img src="./src/img/download.svg"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
         </section>
+        <aside class="asideR">
+            <!--NAVEGAÇÃO-->
+            <nav class="navegacaoRight">
+                <h2>Atribuições e Créditos</h2>
+                <!--LINHA MUSICAS-->
+                <div class="musicas">
+                    <div class="fotoMusicas">
+                        <img src="./src/img/cc-logo.png">
+                    </div>
+                    <div>
+                        <a href="http://ccmixter.org/">Músicas disponíveis em ccMixter sob licença Creative Commons</a>
+                    </div>
+                </div>
+                <!--LINHA ICONES-->
+                <div class="icones">
+                    <div class="fotoIcones">
+                        <img src="./src/img/flaticon.png">
+                    </div>
+                    <div>
+                        <a href="https://www.flaticon.com/uicons">Uicons by Flaticon</a>
+                    </div>
+                </div>
+                <!--LINHA ICONES-->
+                <div class="imagens">
+                    <div class="fotoImagens">
+                        <img src="./src/img/freepik-logo.png">
+                    </div>
+                    <div>
+                        <a href="https://www.freepik.es">Imagens by Freepik</a>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+    </div>
+    <!--PLAYER-->
+    <section class="player">
+        <!--TOCANDO AGORA-->
+        <div class="tocandoAgora">
+            <div>
+                <img src="./src/img/album2.jpeg" alt="album">
+            </div>
+            <div>
+                <h2>Black</h2>
+                <p>Pearl Jam</p>
+            </div>
+        </div>
+        <!--CONTROLES-->
+        <div class="controle">
+            <button type="button" id="anterior"> ANT </button>
+            <button type="button" id="play"> PLAY </button>
+            <button type="button" id="proxima"> PROX </button>
+        </div>
+        <!--VOLUME-->
+        <div class="volume">
+            <input type="range">
+        </div>
+    </section>
 
-        <!--PLAYER-->
-        <section>
-            <div id="foto-e-nome">
-                <figure>
-                    <img src="scr/img/album2.jpeg" alt="Album">
-                    <figcaption>Legenda</figcaption>
-                </figure>
-                <h2>Música</h2>
-                <p>Artista</p>
-            </div>
-            <div id="controles">
-                <button><<</button>
-                <button>Play/Pause</button>
-                <button>>></button>
-            </div>
-            <div id="range">
-                <input type="range" value="50">
-            </div>
-        </section>
-    </main>
+
 </body>
+
 </html>
