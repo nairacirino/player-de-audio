@@ -113,7 +113,7 @@ aside>img {
 .asideR>div>h2 {
     font-size: small;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
@@ -157,7 +157,8 @@ aside>img {
     border-radius: 10%;
 }
 
-.home:hover, .creditos:hover, .git:hover, .add:hover, .remove:hover {
+
+.home:hover, .creditos:hover, .git:hover, .add:hover, .remove:hover, tbody>tr:hover {
     background-color: #2d0a49;
 }
 
@@ -313,10 +314,12 @@ header {
 
 .areaLista {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 table {
-    width: 100%;
+    width: 90%;
     text-align: center;
     border-collapse: collapse;
 }
@@ -335,7 +338,11 @@ tbody {
 
 thead, tr, td {
     border-bottom: 1px solid rgb(65, 65, 65);
-    padding: 10px;
+    padding: 6px;
+}
+
+tr {
+    border-radius: 30%;
 }
 
 td>a>img {
