@@ -46,7 +46,7 @@ aside {
 .asideL {
     flex-direction: column;
     align-content: center;
-    width: 14%;
+    width: 18%;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -66,7 +66,7 @@ aside {
 
 .asideR {
     flex-direction: column;
-    width: 18%;
+    width: 22%;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -159,7 +159,7 @@ aside>img {
 
 
 .home:hover, .creditos:hover, .git:hover, .add:hover, .remove:hover, tbody>tr:hover {
-    background-color: #009caa;
+    background-color: #201e20;
 }
 
 .iconeHome>img {
@@ -239,7 +239,7 @@ aside>img {
 .miolo {
     display: flex;
     flex-direction: column;
-    width: 68%;
+    width: 60%;
     height: 100%;
     background-image: linear-gradient(to bottom, black, #100912);
     border-left: 1px #8080803b solid;
@@ -257,10 +257,7 @@ header {
     flex-direction: column;
     margin: 0;
     height: 25%;
-    background-image: url(../img/fundoCabecalho2.png);
-    background-size: cover;
-    background-position: right bottom;
-    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(17,3,60,1) 0%, rgba(14,14,23,1) 52%);
     font-weight: normal;
     color: white;
     font-size: medium;
@@ -328,7 +325,6 @@ thead {
     font-weight: bolder;
     font-size: medium;
     color: #9c9c9c;
-    text-shadow: 1px 0px 1px #ffffff;
 }
 
 tbody {
@@ -381,5 +377,12 @@ td>a>img {
 }
 
 .volume {
-    margin-right: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.volume>div>img {
+    width: 20px;
+    margin: 5px;
 }
