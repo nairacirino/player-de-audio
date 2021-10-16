@@ -19,6 +19,10 @@ hr {
     border-style: dashed;
     color: rgb(58, 58, 58);
 }
+h1, h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
 
 .container {
     display: flex;
@@ -273,8 +277,6 @@ header {
     color: rgb(255, 255, 255);
     align-items: center;
     text-shadow: 4px 4px 6px rgb(0 0 0);
-    font-size: 70%;
-    font-weight: lighter;
 }
 
 .usuario>img {
