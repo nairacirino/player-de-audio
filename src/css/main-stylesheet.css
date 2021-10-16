@@ -305,7 +305,7 @@ header {
 .listaMusicas {
     width: 100%;
     z-index: 2;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     overflow-y: auto;
 }
 
