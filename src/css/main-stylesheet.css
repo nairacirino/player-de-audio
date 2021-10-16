@@ -384,6 +384,7 @@ td>a>img {
     margin-right: 50px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .volume>div>img {
